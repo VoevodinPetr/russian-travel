@@ -19,7 +19,7 @@
   .photo-grid__list {
     max-width: 720px;
     gap: 16px;
-    padding-top: 88px;
+    padding-top: 64px;
   }
 }
 
@@ -27,13 +27,11 @@
   .photo-grid__list {
     max-width: 390px;
     gap: 12px;
-  
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__list {
     max-width: 288px;
-    padding-top: 64px;
   }
 }
