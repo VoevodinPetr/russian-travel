@@ -5,10 +5,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__links {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 32px;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }

@@ -6,20 +6,19 @@
   margin: 0 0 26px;
 }
 
-.place__paragraph:nth-of-type(even) {
+.place__paragraph:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
-    margin-bottom: 25px;
     font-size: 16px;
-    padding: 0 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .place__paragraph {
-    padding: 0 16px 0 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

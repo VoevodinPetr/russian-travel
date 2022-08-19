@@ -2,16 +2,9 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 424px) {
   .place__website {
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 16px;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .place__website {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
