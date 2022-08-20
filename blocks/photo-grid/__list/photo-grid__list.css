@@ -5,34 +5,32 @@
   list-style-type: none;
   margin: 0 auto;
   padding: 92px 0 0;
-  max-width: 1184px;
+  max-width: 92.5%;
 }
 
 @media screen and (max-width: 1279px) {
   .photo-grid__list {
-    width: 92.493%;
+    max-width: 100%;
     gap: 14px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .photo-grid__list {
-    max-width: 720px;
     gap: 16px;
+    padding-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid__list {
-    max-width: 400px;
-    padding-top: 88px;
-    gap: 12px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .photo-grid__list {
-    max-width: 288px;
     padding-top: 64px;
+    gap: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

@@ -1,5 +1,5 @@
 .footer {
-  width: 92.5%;
+  max-width: 92.5%;
   display: flex;
   justify-content: space-between;
   padding-top: 92px;
@@ -9,21 +9,25 @@
 
 @media screen and (max-width: 1279px) {
   .footer {
-    width: 92.493%;
+    max-width: 100%;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .footer {
-    width: 93.75%;
     padding-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    width: 95.829%;
     padding-top: 64px;
     flex-direction: column;
+    margin-left: 16px;
+    margin-right: 0;
   }
 }
